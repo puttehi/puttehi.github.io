@@ -1,0 +1,74 @@
+:root {
+    --main-color: #235b7c;
+    --main-text-color: #3b4249;
+}
+
+.programming-languages {
+margin-bottom: 0 !important;
+}
+
+.dev-icons {
+/*color: coding language(Education) highlight/hover color*/
+padding: 0px;
+}
+
+.dev-icons .list-inline-item i:hover {
+/*color: coding language(Education) highlight/hover color*/
+color: var(--main-color);
+cursor: default;
+}
+
+.dev-icons .list-inline-item {
+/*color: coding language(Education) highlight/hover color*/
+font-size: 2rem;  
+}
+
+body {
+/*color: leipätekstin väri*/
+color: var(--main-text-color);  
+}
+
+h1,h2,h3,h4,h5,h6 {
+/*color: otsikkotekstien väri*/
+}
+
+.bg-primary {
+/*background-color: sivupalkin väri !important;*/
+background-color: var(--main-color) !important;  
+}
+
+.text-primary {
+/*color: sukunimen ja vuosilukujen väri !important;*/
+color: var(--main-color) !important;
+}
+
+a {
+/*color: sähköpostin väri*/
+color: var(--main-color);
+}
+
+a:hover, a:focus, a:active {
+/*color: sähköposti-hover väri*/
+color: var(--main-color);
+}
+
+.social-icons a {
+    /*background-color: some-ikonien taustaväri*/
+    /*color: some-ikonien täyttöväri !important;*/
+}
+
+.social-icons a:hover {
+    /*background-color: some-ikonien hover-väri*/
+    background-color: #de7e00;
+}
+
+.social-icons .linked-in a:hover {
+    /*background-color: some-ikonien hover-väri*/
+    background-color: #0077B5;
+}
+
+
+
+#sideNav .navbar-toggler:focus {
+    /*outline-color: #d48a6e;*/
+}
