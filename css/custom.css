@@ -82,7 +82,10 @@ color: var(--main-color);
     background-color: #111111;
 }
 
-
 #sideNav .navbar-toggler:focus {
     /*outline-color: #d48a6e;*/
+}
+
+.resume-content .img-fluid {
+    max-width: 35%;
 }
