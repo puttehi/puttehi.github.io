@@ -87,5 +87,5 @@ color: var(--main-color);
 }
 
 .resume-content .img-fluid {
-    max-width: 35%;
+    max-width: 50%;
 }
