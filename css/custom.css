@@ -52,6 +52,11 @@ a:hover, a:focus, a:active {
 color: var(--main-color);
 }
 
+.social-icons {
+    /*color: coding language(Education) highlight/hover color*/
+    padding: 0px;
+}
+
 .social-icons a {
     /*background-color: some-ikonien taustaväri*/
     /*color: some-ikonien täyttöväri !important;*/
@@ -65,6 +70,11 @@ color: var(--main-color);
 .social-icons .linked-in a:hover {
     /*background-color: some-ikonien hover-väri*/
     background-color: #0077B5;
+}
+
+.social-icons .github a:hover {
+    /*background-color: some-ikonien hover-väri*/
+    background-color: #24292E;
 }
 
 
