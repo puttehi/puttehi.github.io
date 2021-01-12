@@ -77,6 +77,10 @@ color: var(--main-color);
     background-color: #24292E;
 }
 
+.social-icons .itch-io a:hover {
+    /*background-color: some-ikonien hover-väri*/
+    background-color: #111111;
+}
 
 
 #sideNav .navbar-toggler:focus {
